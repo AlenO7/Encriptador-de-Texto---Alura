@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="header__logo">
+                <img src="img/Logo.png" alt="Logo de Alura">
+            </div>
+        </nav>
+    </header>
+
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <textarea class="textarea" name="ingTexto" id="ingTexto" placeholder="Ingrese texto..."></textarea>
+           
+            <div class="presentacion__botones">
+                <button class="button__encriptar" id="btnEncriptar">Encriptar</button>
+                <button class="button__desencriptar" id="btnDesencriptar">Desencriptar</button>
+                
+            </div>
+        </section>
+        
+        <aside class="contenedor__textoEncriptado">
+            <textarea class="textarea2" name="saltext" id="saltext" placeholder="Texto encriptado..." ></textarea>
+            <button class="button__copiar" id="btnCopiar">Copiar</button>
+            <div id="mensaje" class="mensaje"></div>
+        </aside>
+    </main>
+
+    <footer>
+        Encriptador de texto desarrollado por Alen Ozcariz
+    </footer>
+</body>
+</html>
